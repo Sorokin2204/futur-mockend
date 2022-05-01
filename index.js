@@ -208,6 +208,8 @@ const data = {
 // const personsMap = new Map(Object.entries(student));
 for (const key of Object.keys(data)) {
   app.get(`/${key}`, (req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+    res.setHeader('Access-Control-Allow-Methods', 'POST,GET,OPTIONS');
     res.send(data[key]);
   });
   //   console.log(student[key]);
