@@ -1,6 +1,12 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
+const cors = require('cors');
+const corsOptions = {
+  origin: '*',
+  credentials: true,
+};
+app.use(cors(corsOptions));
 app.use(express.json());
 const data = {
   city: [
@@ -209,22 +215,14 @@ const data = {
 const corsWhitelist = ['http://localhost:3000', 'https://futur.vercel.app'];
 for (const key of Object.keys(data)) {
   app.get(`/${key}`, (req, res, next) => {
-    res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-
     res.send(data[key]);
   });
   app.post(`/${key}`, (req, res, next) => {
-    res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-
     data[key].push(req.body);
     res.send('Success');
   });
 }
 
 const PORT = 8080 || process.env.PORT;
-
-// app.use('/api/product', product);
 
 app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
