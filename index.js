@@ -209,18 +209,15 @@ const data = {
 const corsWhitelist = ['http://localhost:3000', 'https://futur.vercel.app'];
 for (const key of Object.keys(data)) {
   app.get(`/${key}`, (req, res, next) => {
-    if (corsWhitelist.indexOf(req.headers.origin) !== -1) {
-      res.header('Access-Control-Allow-Origin', req.headers.origin);
-      res.setHeader('Access-Control-Allow-Methods', 'POST,GET,OPTIONS');
-    }
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
 
     res.send(data[key]);
   });
   app.post(`/${key}`, (req, res, next) => {
-    if (corsWhitelist.indexOf(req.headers.origin) !== -1) {
-      res.header('Access-Control-Allow-Origin', req.headers.origin);
-      res.setHeader('Access-Control-Allow-Methods', 'POST,GET,OPTIONS');
-    }
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+
     data[key].push(req.body);
     res.send('Success');
   });
