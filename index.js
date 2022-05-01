@@ -206,13 +206,24 @@ const data = {
 // let rawdata = fs.readFileSync('db.json');
 // let student = JSON.parse(rawdata);
 // const personsMap = new Map(Object.entries(student));
+const corsWhitelist = ['http://localhost:3000', 'https://futur.vercel.app'];
 for (const key of Object.keys(data)) {
   app.get(`/${key}`, (req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
-    res.setHeader('Access-Control-Allow-Methods', 'POST,GET,OPTIONS');
+    if (corsWhitelist.indexOf(req.headers.origin) !== -1) {
+      res.header('Access-Control-Allow-Origin', req.headers.origin);
+      res.setHeader('Access-Control-Allow-Methods', 'POST,GET,OPTIONS');
+    }
+
     res.send(data[key]);
   });
-  //   console.log(student[key]);
+  app.post(`/${key}`, (req, res, next) => {
+    if (corsWhitelist.indexOf(req.headers.origin) !== -1) {
+      res.header('Access-Control-Allow-Origin', req.headers.origin);
+      res.setHeader('Access-Control-Allow-Methods', 'POST,GET,OPTIONS');
+    }
+    data[key].push(req.body);
+    res.send('Success');
+  });
 }
 
 const PORT = 8080 || process.env.PORT;
