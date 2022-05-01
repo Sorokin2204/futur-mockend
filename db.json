@@ -23,7 +23,7 @@
       "slug": "chastnyj-dom"
     }
   ],
-  "constructor-start": [],
+
   "feedback": [
     {
       "name": "Офыла",
@@ -123,6 +123,78 @@
           "value": "Росинка, Россия"
         }
       ]
+    },
+    {
+      "id": "6269427c8ddae9e2e9922b4b",
+      "category": "busines",
+      "name": "Стандарт бизнес",
+      "slug": "standart-busines",
+      "price": 50990,
+      "previewImage": "https://picsum.photos/seed/3/1000/800",
+      "defaultDetails": [
+        {
+          "label": "Ламинат",
+          "value": "Серия Kastamono, 31 класс, 7мм"
+        },
+        {
+          "label": "Двери",
+          "value": "EcoTech, Тренд"
+        },
+        {
+          "label": "Сместители",
+          "value": "Росинка, Россия"
+        }
+      ]
     }
   ],
+  "room": [
+    {
+      "icon": "/icons/room-1.svg",
+      "name": "Гостиная",
+      "slug": "gostinaya",
+      "order": 1
+    },
+    {
+      "icon": "/icons/room-2.svg",
+      "name": "Спальня",
+      "slug": "spalng",
+      "order": 2
+    },
+    {
+      "icon": "/icons/room-3.svg",
+      "name": "Кухня",
+      "slug": "kugna",
+      "order": 3
+    },
+    {
+      "icon": "/icons/room-4.svg",
+      "name": "Ванная",
+      "slug": "vanna",
+      "order": 4
+    },
+    {
+      "icon": "/icons/room-5.svg",
+      "name": "Санузел",
+      "slug": "sanusel",
+      "order": 5
+    },
+    {
+      "icon": "/icons/room-6.svg",
+      "name": "Прихожая",
+      "slug": "prihocha",
+      "order": 6
+    },
+    {
+      "icon": "/icons/room-7.svg",
+      "name": "Балкон",
+      "slug": "balkon",
+      "order": 7
+    },
+    {
+      "icon": "/icons/room-8.svg",
+      "name": "Гардеробная",
+      "slug": "garderob",
+      "order": 8
+    }
+  ]
 }
