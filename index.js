@@ -243,12 +243,12 @@ const data = {
       slug: 'gostinaya',
       imgWithFurnitureOnAngles: [
         {
-          img: 'http://localhost:3000/img/constructor/mebel-1.png',
+          img: '/img/constructor/mebel-1.png',
           priority: 4,
           orderAngle: 1,
         },
         {
-          img: 'http://localhost:3000/img/constructor/mebel-2.png',
+          img: '/img/constructor/mebel-2.png',
           priority: 4,
           orderAngle: 2,
         },
@@ -275,7 +275,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Розетки',
               slug: 'rosetki',
-              previewImg: 'http://localhost:3000/img/constructor/rosetka-1-prev.jpeg',
+              previewImg: '/img/constructor/rosetka-1-prev.jpeg',
               desc: 'Розетки Boshe',
               price: 2000,
               order: 1,
@@ -288,12 +288,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor/rosetki-1-r1.png',
+                  img: '/img/constructor/rosetki-1-r1.png',
                   priority: 4,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor/rosetki-1-r2.png',
+                  img: '/img/constructor/rosetki-1-r2.png',
                   priority: 4,
                   orderAngle: 2,
                 },
@@ -303,7 +303,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Ламинат Tarkett, Цвет Дуб шервуд белый 4V',
               slug: 'laminat-tarkett-kollekciya-woodstock-cvet-dub-shervud-belyj-4v-33-klass-8-mm-s-faskojrrr',
-              previewImg: 'http://localhost:3000/img/constructor/pol-1-prev.png',
+              previewImg: '/img/constructor/pol-1-prev.png',
               desc: 'Ламинат Tarkett, Коллекция WoodStock, Цвет Дуб шервуд белый 4V, 33 класс 8 мм, с фаской',
               price: 10000,
               order: 1,
@@ -315,12 +315,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor/pol-1-r1.png',
+                  img: '/img/constructor/pol-1-r1.png',
                   priority: 2,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor/pol-1-r2.png',
+                  img: '/img/constructor/pol-1-r2.png',
                   priority: 2,
                   orderAngle: 2,
                 },
@@ -330,7 +330,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Ламинат Tarkett, Цвет Эсмеральда',
               slug: 'laminat-tarkett-kollekciya-woodstock-cvet-dub-shervud-belyj-4v-33-klass-8-mm-s-faskoj',
-              previewImg: 'http://localhost:3000/img/constructor/pol-2-prev.jpg',
+              previewImg: '/img/constructor/pol-2-prev.jpg',
               desc: 'Ламинат Tarkett, Коллекция Ballet, Цвет Эсмеральда, 33 класс 8 мм, с фаской',
               price: 10000,
               order: 1,
@@ -342,12 +342,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor/pol-2-r1.png',
+                  img: '/img/constructor/pol-2-r1.png',
                   priority: 2,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor/pol-2-r2.png',
+                  img: '/img/constructor/pol-2-r2.png',
                   priority: 2,
                   orderAngle: 2,
                 },
@@ -376,7 +376,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Двухуровневый потолок из ГКЛ с черной нишей',
               slug: 'dvuhurovnevyj-potolok-iz-gkl-s-chernoj-nishej',
-              previewImg: 'http://localhost:3000/img/constructor/potolok-1-prev.png',
+              previewImg: '/img/constructor/potolok-1-prev.png',
               desc: 'Двухуровневый потолок из ГКЛ с черной нишей для спот - Гостиная',
               price: 12000,
               order: 1,
@@ -388,12 +388,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor/potolok-1-r1.png',
+                  img: '/img/constructor/potolok-1-r1.png',
                   priority: 1,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor/potolok-1-r2.png',
+                  img: '/img/constructor/potolok-1-r2.png',
                   priority: 1,
                   orderAngle: 2,
                 },
@@ -403,7 +403,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Двухуровневый потолок из ГКЛ с белой нишей',
               slug: 'dvuhurovnevyj-potolok-iz-gkl-s-beloj-nishej',
-              previewImg: 'http://localhost:3000/img/constructor/potolok-2-prev.png',
+              previewImg: '/img/constructor/potolok-2-prev.png',
               desc: 'Двухуровневый потолок из ГКЛ с белой нишей для спот - Гостиная',
               price: 12000,
               order: 1,
@@ -415,12 +415,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor/potolok-2-r1.png',
+                  img: '/img/constructor/potolok-2-r1.png',
                   priority: 1,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor/potolok-2-r2.png',
+                  img: '/img/constructor/potolok-2-r2.png',
                   priority: 1,
                   orderAngle: 2,
                 },
@@ -449,7 +449,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Краска Ceresit, Columbia',
               slug: 'kraska-ceresit-columbia',
-              previewImg: 'http://localhost:3000/img/constructor/stena-1-prev.jpg',
+              previewImg: '/img/constructor/stena-1-prev.jpg',
               desc: 'Краска Ceresit, Columbia, код CL2, флизелиновые обои',
               price: 12000,
               order: 1,
@@ -461,15 +461,15 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor/stena-1-r1.png',
+                  img: '/img/constructor/stena-1-r1.png',
                   imgWithFurniture: '/img/stena/stena-1-r1-m.png',
                   priority: 2,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor/stena-1-r2.png',
+                  img: '/img/constructor/stena-1-r2.png',
                   priority: 2,
-                  imgWithFurniture: 'http://localhost:3000/img/constructor/stena-1-r2-m.png',
+                  imgWithFurniture: '/img/constructor/stena-1-r2-m.png',
                   orderAngle: 2,
                 },
               ],
@@ -478,7 +478,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Краска Ceresit, Derufa',
               slug: 'kraska-ceresit-derufa',
-              previewImg: 'http://localhost:3000/img/constructor/stena-2-prev.jpg',
+              previewImg: '/img/constructor/stena-2-prev.jpg',
               desc: 'Краска Ceresit, Derufa, код CL2, флизелиновые обои',
               price: 12000,
               order: 1,
@@ -490,15 +490,15 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor/stena-2-r1.png',
+                  img: '/img/constructor/stena-2-r1.png',
                   priority: 2,
                   imgWithFurniture: '/img/stena/stena-2-r1-m.png',
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor/stena-2-r2.png',
+                  img: '/img/constructor/stena-2-r2.png',
                   priority: 2,
-                  imgWithFurniture: 'http://localhost:3000/img/constructor/stena-2-r2-m.png',
+                  imgWithFurniture: '/img/constructor/stena-2-r2-m.png',
                   orderAngle: 2,
                 },
               ],
@@ -514,7 +514,7 @@ const data = {
       slug: 'kugna',
       imgWithFurnitureOnAngles: [
         {
-          img: 'http://localhost:3000/img/constructor-kitchen/mebel-1.png',
+          img: '/img/constructor-kitchen/mebel-1.png',
           priority: 4,
           orderAngle: 1,
         },
@@ -541,7 +541,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Розетки',
               slug: 'rosetki',
-              previewImg: 'http://localhost:3000/img/constructor-kitchen/rosetka-1-prev.jpeg',
+              previewImg: '/img/constructor-kitchen/rosetka-1-prev.jpeg',
               desc: 'Розетки Boshe',
               price: 2000,
               order: 1,
@@ -554,7 +554,7 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen/rosetki-1-r1.png',
+                  img: '/img/constructor-kitchen/rosetki-1-r1.png',
                   priority: 4,
                   orderAngle: 1,
                 },
@@ -564,7 +564,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Ламинат Tarkett, Цвет Дуб шервуд белый 4V',
               slug: 'laminat-tarkett-kollekciya-woodstock-cvet-dub-shervud-belyj-4v-33-klass-8-mm-s-faskojrrr',
-              previewImg: 'http://localhost:3000/img/constructor-kitchen/pol-1-prev.png',
+              previewImg: '/img/constructor-kitchen/pol-1-prev.png',
               desc: 'Ламинат Tarkett, Коллекция WoodStock, Цвет Дуб шервуд белый 4V, 33 класс 8 мм, с фаской',
               price: 10000,
               order: 1,
@@ -576,12 +576,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen/pol-1-r1.png',
+                  img: '/img/constructor-kitchen/pol-1-r1.png',
                   priority: 2,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen/pol-1-r2.png',
+                  img: '/img/constructor-kitchen/pol-1-r2.png',
                   priority: 2,
                   orderAngle: 2,
                 },
@@ -591,7 +591,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Ламинат Tarkett, Цвет Эсмеральда',
               slug: 'laminat-tarkett-kollekciya-woodstock-cvet-dub-shervud-belyj-4v-33-klass-8-mm-s-faskoj',
-              previewImg: 'http://localhost:3000/img/constructor-kitchen/pol-2-prev.jpg',
+              previewImg: '/img/constructor-kitchen/pol-2-prev.jpg',
               desc: 'Ламинат Tarkett, Коллекция Ballet, Цвет Эсмеральда, 33 класс 8 мм, с фаской',
               price: 10000,
               order: 1,
@@ -603,12 +603,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen/pol-2-r1.png',
+                  img: '/img/constructor-kitchen/pol-2-r1.png',
                   priority: 2,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen/pol-2-r2.png',
+                  img: '/img/constructor-kitchen/pol-2-r2.png',
                   priority: 2,
                   orderAngle: 2,
                 },
@@ -637,7 +637,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Двухуровневый потолок из ГКЛ с черной нишей',
               slug: 'dvuhurovnevyj-potolok-iz-gkl-s-chernoj-nishej',
-              previewImg: 'http://localhost:3000/img/constructor-kitchen/potolok-1-prev.png',
+              previewImg: '/img/constructor-kitchen/potolok-1-prev.png',
               desc: 'Двухуровневый потолок из ГКЛ с черной нишей для спот - Гостиная',
               price: 12000,
               order: 1,
@@ -649,12 +649,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen/potolok-1-r1.png',
+                  img: '/img/constructor-kitchen/potolok-1-r1.png',
                   priority: 1,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen/potolok-1-r2.png',
+                  img: '/img/constructor-kitchen/potolok-1-r2.png',
                   priority: 1,
                   orderAngle: 2,
                 },
@@ -683,7 +683,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Краска Ceresit, Columbia',
               slug: 'kraska-ceresit-columbia',
-              previewImg: 'http://localhost:3000/img/constructor-kitchen/stena-1-prev.jpg',
+              previewImg: '/img/constructor-kitchen/stena-1-prev.jpg',
               desc: 'Краска Ceresit, Columbia, код CL2, флизелиновые обои',
               price: 12000,
               order: 1,
@@ -695,15 +695,15 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen/stena-1-r1.png',
+                  img: '/img/constructor-kitchen/stena-1-r1.png',
                   imgWithFurniture: '/img/stena/stena-1-r1-m.png',
                   priority: 2,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen/stena-1-r2.png',
+                  img: '/img/constructor-kitchen/stena-1-r2.png',
                   priority: 2,
-                  imgWithFurniture: 'http://localhost:3000/img/constructor-kitchen/stena-1-r2-m.png',
+                  imgWithFurniture: '/img/constructor-kitchen/stena-1-r2-m.png',
                   orderAngle: 2,
                 },
               ],
@@ -712,7 +712,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Краска Ceresit, Derufa',
               slug: 'kraska-ceresit-derufa',
-              previewImg: 'http://localhost:3000/img/constructor-kitchen/stena-2-prev.jpg',
+              previewImg: '/img/constructor-kitchen/stena-2-prev.jpg',
               desc: 'Краска Ceresit, Derufa, код CL2, флизелиновые обои',
               price: 12000,
               order: 1,
@@ -724,15 +724,15 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen/stena-2-r1.png',
+                  img: '/img/constructor-kitchen/stena-2-r1.png',
                   priority: 2,
                   imgWithFurniture: '/img/stena/stena-2-r1-m.png',
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen/stena-2-r2.png',
+                  img: '/img/constructor-kitchen/stena-2-r2.png',
                   priority: 2,
-                  imgWithFurniture: 'http://localhost:3000/img/constructor-kitchen/stena-2-r2-m.png',
+                  imgWithFurniture: '/img/constructor-kitchen/stena-2-r2-m.png',
                   orderAngle: 2,
                 },
               ],
@@ -748,7 +748,7 @@ const data = {
       slug: 'kugna',
       imgWithFurnitureOnAngles: [
         {
-          img: 'http://localhost:3000/img/constructor-kitchen-prime/mebel-1.png',
+          img: '/img/constructor-kitchen-prime/mebel-1.png',
           priority: 4,
           orderAngle: 1,
         },
@@ -775,7 +775,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Розетки',
               slug: 'rosetki',
-              previewImg: 'http://localhost:3000/img/constructor-kitchen-prime/rosetka-1-prev.jpeg',
+              previewImg: '/img/constructor-kitchen-prime/rosetka-1-prev.jpeg',
               desc: 'Розетки Boshe',
               price: 2000,
               order: 1,
@@ -788,7 +788,7 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen-prime/rosetki-1-r1.png',
+                  img: '/img/constructor-kitchen-prime/rosetki-1-r1.png',
                   priority: 4,
                   orderAngle: 1,
                 },
@@ -798,7 +798,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Ламинат Tarkett, Цвет Дуб шервуд белый 4V',
               slug: 'laminat-tarkett-kollekciya-woodstock-cvet-dub-shervud-belyj-4v-33-klass-8-mm-s-faskojrrr',
-              previewImg: 'http://localhost:3000/img/constructor-kitchen-prime/pol-1-prev.png',
+              previewImg: '/img/constructor-kitchen-prime/pol-1-prev.png',
               desc: 'Ламинат Tarkett, Коллекция WoodStock, Цвет Дуб шервуд белый 4V, 33 класс 8 мм, с фаской',
               price: 10000,
               order: 1,
@@ -810,12 +810,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen-prime/pol-1-r1.png',
+                  img: '/img/constructor-kitchen-prime/pol-1-r1.png',
                   priority: 2,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen-prime/pol-1-r2.png',
+                  img: '/img/constructor-kitchen-prime/pol-1-r2.png',
                   priority: 2,
                   orderAngle: 2,
                 },
@@ -825,7 +825,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Ламинат Tarkett, Цвет Эсмеральда',
               slug: 'laminat-tarkett-kollekciya-woodstock-cvet-dub-shervud-belyj-4v-33-klass-8-mm-s-faskoj',
-              previewImg: 'http://localhost:3000/img/constructor-kitchen-prime/pol-2-prev.jpg',
+              previewImg: '/img/constructor-kitchen-prime/pol-2-prev.jpg',
               desc: 'Ламинат Tarkett, Коллекция Ballet, Цвет Эсмеральда, 33 класс 8 мм, с фаской',
               price: 10000,
               order: 1,
@@ -837,12 +837,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen-prime/pol-2-r1.png',
+                  img: '/img/constructor-kitchen-prime/pol-2-r1.png',
                   priority: 2,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen-prime/pol-2-r2.png',
+                  img: '/img/constructor-kitchen-prime/pol-2-r2.png',
                   priority: 2,
                   orderAngle: 2,
                 },
@@ -871,7 +871,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Двухуровневый потолок из ГКЛ с черной нишей',
               slug: 'dvuhurovnevyj-potolok-iz-gkl-s-chernoj-nishej',
-              previewImg: 'http://localhost:3000/img/constructor-kitchen-prime/potolok-1-prev.png',
+              previewImg: '/img/constructor-kitchen-prime/potolok-1-prev.png',
               desc: 'Двухуровневый потолок из ГКЛ с черной нишей для спот - Гостиная',
               price: 12000,
               order: 1,
@@ -883,12 +883,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen-prime/potolok-1-r1.png',
+                  img: '/img/constructor-kitchen-prime/potolok-1-r1.png',
                   priority: 1,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen-prime/potolok-1-r2.png',
+                  img: '/img/constructor-kitchen-prime/potolok-1-r2.png',
                   priority: 1,
                   orderAngle: 2,
                 },
@@ -917,7 +917,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Краска Ceresit, Columbia',
               slug: 'kraska-ceresit-columbia',
-              previewImg: 'http://localhost:3000/img/constructor-kitchen-prime/stena-1-prev.jpg',
+              previewImg: '/img/constructor-kitchen-prime/stena-1-prev.jpg',
               desc: 'Краска Ceresit, Columbia, код CL2, флизелиновые обои',
               price: 12000,
               order: 1,
@@ -929,15 +929,15 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen-prime/stena-1-r1.png',
+                  img: '/img/constructor-kitchen-prime/stena-1-r1.png',
                   imgWithFurniture: '/img/stena/stena-1-r1-m.png',
                   priority: 2,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen-prime/stena-1-r2.png',
+                  img: '/img/constructor-kitchen-prime/stena-1-r2.png',
                   priority: 2,
-                  imgWithFurniture: 'http://localhost:3000/img/constructor-kitchen-prime/stena-1-r2-m.png',
+                  imgWithFurniture: '/img/constructor-kitchen-prime/stena-1-r2-m.png',
                   orderAngle: 2,
                 },
               ],
@@ -946,7 +946,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Краска Ceresit, Derufa',
               slug: 'kraska-ceresit-derufa',
-              previewImg: 'http://localhost:3000/img/constructor-kitchen-prime/stena-2-prev.jpg',
+              previewImg: '/img/constructor-kitchen-prime/stena-2-prev.jpg',
               desc: 'Краска Ceresit, Derufa, код CL2, флизелиновые обои',
               price: 12000,
               order: 1,
@@ -958,15 +958,15 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen-prime/stena-2-r1.png',
+                  img: '/img/constructor-kitchen-prime/stena-2-r1.png',
                   priority: 2,
                   imgWithFurniture: '/img/stena/stena-2-r1-m.png',
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-kitchen-prime/stena-2-r2.png',
+                  img: '/img/constructor-kitchen-prime/stena-2-r2.png',
                   priority: 2,
-                  imgWithFurniture: 'http://localhost:3000/img/constructor-kitchen-prime/stena-2-r2-m.png',
+                  imgWithFurniture: '/img/constructor-kitchen-prime/stena-2-r2-m.png',
                   orderAngle: 2,
                 },
               ],
@@ -982,12 +982,12 @@ const data = {
       slug: 'gostinaya',
       imgWithFurnitureOnAngles: [
         {
-          img: 'http://localhost:3000/img/constructor-prime/mebel-1.png',
+          img: '/img/constructor-prime/mebel-1.png',
           priority: 4,
           orderAngle: 1,
         },
         {
-          img: 'http://localhost:3000/img/constructor-prime/mebel-2.png',
+          img: '/img/constructor-prime/mebel-2.png',
           priority: 4,
           orderAngle: 2,
         },
@@ -1014,7 +1014,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Ламинат Tarkett, Цвет Дуб шервуд белый 4V',
               slug: 'laminat-tarkett-kollekciya-woodstock-cvet-dub-shervud-belyj-4v-33-klass-8-mm-s-faskojrrr',
-              previewImg: 'http://localhost:3000/img/constructor-prime/pol-1-prev.png',
+              previewImg: '/img/constructor-prime/pol-1-prev.png',
               desc: 'Ламинат Tarkett, Коллекция WoodStock, Цвет Дуб шервуд белый 4V, 33 класс 8 мм, с фаской',
               price: 10000,
               order: 1,
@@ -1026,12 +1026,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-prime/pol-1-r1.png',
+                  img: '/img/constructor-prime/pol-1-r1.png',
                   priority: 2,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-prime/pol-1-r2.png',
+                  img: '/img/constructor-prime/pol-1-r2.png',
                   priority: 2,
                   orderAngle: 2,
                 },
@@ -1041,7 +1041,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Ламинат Tarkett, Цвет Эсмеральда',
               slug: 'laminat-tarkett-kollekciya-woodstock-cvet-dub-shervud-belyj-4v-33-klass-8-mm-s-faskoj',
-              previewImg: 'http://localhost:3000/img/constructor-prime/pol-2-prev.jpg',
+              previewImg: '/img/constructor-prime/pol-2-prev.jpg',
               desc: 'Ламинат Tarkett, Коллекция Ballet, Цвет Эсмеральда, 33 класс 8 мм, с фаской',
               price: 10000,
               order: 1,
@@ -1053,12 +1053,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-prime/pol-2-r1.png',
+                  img: '/img/constructor-prime/pol-2-r1.png',
                   priority: 2,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-prime/pol-2-r2.png',
+                  img: '/img/constructor-prime/pol-2-r2.png',
                   priority: 2,
                   orderAngle: 2,
                 },
@@ -1087,7 +1087,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Двухуровневый потолок из ГКЛ с белой нишей',
               slug: 'dvuhurovnevyj-potolok-iz-gkl-s-beloj-nishej',
-              previewImg: 'http://localhost:3000/img/constructor-prime/potolok-2-prev.png',
+              previewImg: '/img/constructor-prime/potolok-2-prev.png',
               desc: 'Двухуровневый потолок из ГКЛ с белой нишей для спот - Гостиная',
               price: 12000,
               order: 1,
@@ -1099,12 +1099,12 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-prime/potolok-1-r1.jpg',
+                  img: '/img/constructor-prime/potolok-1-r1.jpg',
                   priority: 1,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-prime/potolok-1-r2.jpg',
+                  img: '/img/constructor-prime/potolok-1-r2.jpg',
                   priority: 1,
                   orderAngle: 2,
                 },
@@ -1133,7 +1133,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Краска Ceresit, Columbia',
               slug: 'kraska-ceresit-columbia',
-              previewImg: 'http://localhost:3000/img/constructor-prime/stena-1-prev.jpg',
+              previewImg: '/img/constructor-prime/stena-1-prev.jpg',
               desc: 'Краска Ceresit, Columbia, код CL2, флизелиновые обои',
               price: 12000,
               order: 1,
@@ -1145,15 +1145,15 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-prime/stena-1-r1.png',
+                  img: '/img/constructor-prime/stena-1-r1.png',
                   imgWithFurniture: '/img/stena/stena-1-r1-m.png',
                   priority: 2,
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-prime/stena-1-r2.png',
+                  img: '/img/constructor-prime/stena-1-r2.png',
                   priority: 2,
-                  imgWithFurniture: 'http://localhost:3000/img/constructor-prime/stena-1-r2-m.png',
+                  imgWithFurniture: '/img/constructor-prime/stena-1-r2-m.png',
                   orderAngle: 2,
                 },
               ],
@@ -1162,7 +1162,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Краска Ceresit, Derufa',
               slug: 'kraska-ceresit-derufa',
-              previewImg: 'http://localhost:3000/img/constructor-prime/stena-2-prev.jpg',
+              previewImg: '/img/constructor-prime/stena-2-prev.jpg',
               desc: 'Краска Ceresit, Derufa, код CL2, флизелиновые обои',
               price: 12000,
               order: 1,
@@ -1174,15 +1174,15 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-prime/stena-2-r1.png',
+                  img: '/img/constructor-prime/stena-2-r1.png',
                   priority: 2,
                   imgWithFurniture: '/img/stena/stena-2-r1-m.png',
                   orderAngle: 1,
                 },
                 {
-                  img: 'http://localhost:3000/img/constructor-prime/stena-2-r2.png',
+                  img: '/img/constructor-prime/stena-2-r2.png',
                   priority: 2,
-                  imgWithFurniture: 'http://localhost:3000/img/constructor-prime/stena-2-r2-m.png',
+                  imgWithFurniture: '/img/constructor-prime/stena-2-r2-m.png',
                   orderAngle: 2,
                 },
               ],
@@ -1205,7 +1205,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Дверь белая',
               slug: 'kraska-fdf-columbia',
-              previewImg: 'http://localhost:3000/img/constructor-prime/door-1-prev.jpg',
+              previewImg: '/img/constructor-prime/door-1-prev.jpg',
               desc: 'Краска Ceresit, Columbia, код CL2, флизелиновые обои',
               price: 12000,
               order: 1,
@@ -1217,7 +1217,7 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-prime/door-1-r1.png',
+                  img: '/img/constructor-prime/door-1-r1.png',
                   priority: 2,
                   orderAngle: 1,
                 },
@@ -1227,7 +1227,7 @@ const data = {
               id: '6269427c8ddae9e2e9922b4b',
               name: 'Дверь с окном',
               slug: 'kraska-авfdf-columbia',
-              previewImg: 'http://localhost:3000/img/constructor-prime/door-2-prev.jpg',
+              previewImg: '/img/constructor-prime/door-2-prev.jpg',
               desc: 'Дверь в которую врезано окно',
               price: 12000,
               order: 1,
@@ -1239,7 +1239,7 @@ const data = {
               },
               fullImgOnAngels: [
                 {
-                  img: 'http://localhost:3000/img/constructor-prime/door-2-r1.png',
+                  img: '/img/constructor-prime/door-2-r1.png',
                   priority: 2,
                   orderAngle: 1,
                 },
@@ -1466,7 +1466,7 @@ const data = {
 // let rawdata = fs.readFileSync('db.json');
 // let student = JSON.parse(rawdata);
 // const personsMap = new Map(Object.entries(student));
-const corsWhitelist = ['http://localhost:3000', 'https://futur.vercel.app'];
+const corsWhitelist = ['', 'https://futur.vercel.app'];
 for (const key of Object.keys(data)) {
   app.get(`/${key}`, (req, res, next) => {
     let newData = [...data[key]];
